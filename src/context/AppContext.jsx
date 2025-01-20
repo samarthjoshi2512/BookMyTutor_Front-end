@@ -8,7 +8,7 @@ export const AppContext = createContext()
 const AppContextProvider = (props) => {
 
 const currencySymbol = `₹`
-const backendUrl = import.meta.env.VITE_BACKEND_URL
+const backendUrl = import.meta.env.VITE_BACKEND_URL || 'https://book-my-tutor-back-end.vercel.app'
 
 const [teachers, setTeachers] =useState([])
 const [token,setToken] = useState(localStorage.getItem('token')?localStorage.getItem('token'):false)
