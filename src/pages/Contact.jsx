@@ -19,7 +19,7 @@ const Contact = () => {
             Vidyagiri, Bagalkot, INDIA
           </p>
           <p className="text-gray-500">
-            Tel: (000) 000-0000 <br />
+            Tel: 9876543210 <br />
             Email: bookmytutor@gmail.com
           </p>
           <p className="font-semibold text-lg text-gray-600">CAREERS AT BOOKMYTUTOR</p>
