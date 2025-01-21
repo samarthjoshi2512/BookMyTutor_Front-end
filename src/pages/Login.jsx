@@ -74,10 +74,7 @@ const Login = () => {
 
           {state === "Sign Up" && (
             <div className="w-full">
-              <label >
-                Full Name
-              <input type="text" />
-              </label>
+              <p>Full Name</p>
               
               <input
                 className="border border-zinc-300 rounded w-full p-2 mt-1"
